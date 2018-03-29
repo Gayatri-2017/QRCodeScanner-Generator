@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newspc.qrcode.MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to OR code Scanner and Generator"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/scanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:text="QR Scanner"/>
+
+    <Button
+        android:id="@+id/generator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanner"
+        android:text="QR Generator"/>
+
+</RelativeLayout>
