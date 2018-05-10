@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.qr.ReaderActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to QR Code Scanner!"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:id="@+id/link"
+        android:layout_below="@id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="24sp"
+        android:id="@+id/scan_btn"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
